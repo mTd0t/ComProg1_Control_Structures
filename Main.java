@@ -57,10 +57,10 @@ public class Main {
 
     static void month_names() {//prompts the user for a number and outputs the month associated with that number
         int userInput = 0;
-        Scanner scanner = new Scanner(System.in);
 
         boolean looper = true;
         while (looper) {
+            Scanner scanner = new Scanner(System.in);
             try {
                 System.out.println("******************************");
                 System.out.print("Enter a number 1-12: ");
